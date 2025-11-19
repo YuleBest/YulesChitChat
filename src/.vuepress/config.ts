@@ -19,7 +19,7 @@ export default defineUserConfig({
     [
       "link",
       {
-        rel: "stylesheet",
+        rel: "preload",
         href: "/assets/fonts/woff2/PingFangSC-Regular.woff2",
       },
     ],
