@@ -23,5 +23,12 @@ export default defineUserConfig({
         href: "/assets/fonts/woff2/PingFangSC-Regular.woff2",
       },
     ],
+    [
+      "link",
+      {
+        rel: "preload",
+        href: "/assets/fonts/woff2/PingFangSC-Regular.ttf",
+      },
+    ],
   ],
 });

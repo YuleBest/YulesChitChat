@@ -1,3 +1,25 @@
+// 字体声明
+// @font-face {
+//   font-family: "PingFang SC";
+//   src: url("/assets/fonts/woff2/PingFangSC-Regular.woff2") format("woff2");
+//   font-display: swap;
+// }
+
+$pf-fonts: (
+  400: "PingFangSC-Regular",
+  500: "PingFangSC-Medium",
+  600: "PingFangSC-Semibold",
+);
+
+@each $weight, $file in $pf-fonts {
+  @font-face {
+    font-family: "PingFang SC";
+    src: url("/assets/fonts/woff2/#{$file}.woff2") format("woff2");
+    font-weight: $weight;
+    font-display: swap;
+  }
+}
+
 // 导航栏
 .vp-navbar {
   // 去掉下拉箭头
@@ -121,4 +143,9 @@
 // 首页边距优化
 .blog-page-wrapper {
   padding: 0 18px;
+}
+
+// 作者名称加粗
+.vp-blogger-name {
+  font-weight: bold;
 }
