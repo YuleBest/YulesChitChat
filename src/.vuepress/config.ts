@@ -13,43 +13,4 @@ export default defineUserConfig({
 
   // 和 PWA 一起启用
   // shouldPrefetch: false,
-
-  // 字体
-  head: [
-    [
-      "link",
-      {
-        rel: "stylesheet",
-        href: "/assets/fonts/woff2/PingFangSC-Regular.woff2",
-      },
-    ],
-    [
-      "link",
-      {
-        rel: "stylesheet",
-        href: "/assets/fonts/woff2/PingFangSC-Light.woff2",
-      },
-    ],
-    [
-      "link",
-      {
-        rel: "stylesheet",
-        href: "/assets/fonts/woff2/PingFangSC-Medium.woff2",
-      },
-    ],
-    [
-      "link",
-      {
-        rel: "stylesheet",
-        href: "/assets/fonts/woff2/PingFangSC-Semibold.woff2",
-      },
-    ],
-    [
-      "link",
-      {
-        rel: "stylesheet",
-        href: "/assets/fonts/woff2/PingFangSC-Thin.woff2",
-      },
-    ],
-  ],
 });
