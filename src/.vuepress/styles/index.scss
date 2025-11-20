@@ -132,8 +132,8 @@ $inter-fonts: (
 
 .vp-article-title {
   span {
-    font-size: 1.75rem;
-    line-height: 3rem;
+    font-size: 1.3rem;
+    line-height: 1.3rem;
     font-weight: bold;
   }
 }
@@ -143,8 +143,20 @@ $inter-fonts: (
   font-size: 0.8rem;
 }
 
-.page-info > span {
-  margin-inline-end: 0.8em !important;
+.page-info {
+  .page-author-info {
+    margin-inline-end: 0.2em !important;
+  }
+  .page-original-info,
+  .page-reading-time-info,
+  .page-category-info,
+  .page-tag-info {
+    margin-inline-end: 1em !important;
+  }
+
+  .page-original-info {
+    font-size: 0.65em;
+  }
 }
 
 .page-info {
@@ -153,7 +165,7 @@ $inter-fonts: (
 
 // 文章面包屑导航优化
 .vp-breadcrumb {
-  font-size: 0.85rem;
+  font-size: 0.75rem;
 }
 
 // 首页边距优化
@@ -164,4 +176,14 @@ $inter-fonts: (
 // 作者名称加粗
 .vp-blogger-name {
   font-weight: bold;
+}
+
+// 文章分类标签优化
+.page-category-item {
+  padding: 0 0.5em !important;
+}
+
+.page-tag-item {
+  padding: 0.125rem 0.25rem 0.125rem 0.7rem !important;
+  border-radius: 0.25em;
 }
