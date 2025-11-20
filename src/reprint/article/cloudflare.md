@@ -6,6 +6,8 @@ author: ["Cloudflare", "Matthew Prince"]
 
 category: ["转载"]
 tag: ["Cloudflare", "科技", "网络", "故障报告"]
+
+excerpt: 2025 年 11 月 18 日 11:20 UTC，Cloudflare 网络开始出现严重故障，无法正常传输核心网络流量。尝试访问我们客户网站的互联网用户会看到一个错误页面，提示 Cloudflare 网络出现故障。
 ---
 
 ::: note
