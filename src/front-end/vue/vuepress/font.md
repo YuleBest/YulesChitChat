@@ -1,11 +1,11 @@
 ---
-title: VuePress Theme Hope 如何使用自定义的本地字体
+title: VuePress Theme Hope 使用自定义的本地字体
 description: 自定义 VuePress Theme Hope 字体，包括设置本地字体文件和声明字体
 isOriginal: true
 author: Yule
 
-category: ["前端", "Vue", "VuePress"]
-tag: ["vuepress-theme-hope", "个性化", "woff2", "ttf"]
+category: ["前端"]
+tag: ["Vue", "VuePress", "vuepress-theme-hope", "个性化"]
 ---
 
 最近用 VuePress 的 Hope 主题时想更换一下字体，但[官方文档](https://theme-hope.vuejs.press/zh/guide/customize/font.html)只介绍如何使用字体库里的字体[^1]，所以自己折腾了下，搞定了本地字体的使用，分享出来供大家参考。

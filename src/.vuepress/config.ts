@@ -8,14 +8,7 @@ export default defineUserConfig({
   title: "于乐的碎碎念",
   description: "于乐的碎碎念丨Yule's Chit-Chat",
 
-  locales: {
-    "/": {
-      lang: "zh-CN",
-    },
-    "/en/": {
-      lang: "en-US",
-    },
-  },
+  lang: "zh-CN",
 
   theme,
 

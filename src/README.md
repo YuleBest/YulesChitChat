@@ -2,10 +2,10 @@
 
 home: true
 layout: Blog
-icon: house
 bgImage: "https://www.dmoe.cc/random.php"
 heroText: 于乐的碎碎念
 shortTitle: 首页
+index: false
 
 # heroFullScreen: true
 
