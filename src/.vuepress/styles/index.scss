@@ -187,3 +187,11 @@ $inter-fonts: (
   padding: 0.125rem 0.25rem 0.125rem 0.7rem !important;
   border-radius: 0.25em;
 }
+
+.vp-page.vp-blog-home {
+  padding-top: 0 !important;
+}
+
+.vp-navbar {
+  backdrop-filter: saturate(150%) blur(5px);
+}

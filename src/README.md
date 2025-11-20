@@ -1,5 +1,4 @@
 ---
-
 home: true
 layout: Blog
 bgImage: "https://www.dmoe.cc/random.php"
@@ -7,10 +6,11 @@ heroText: 于乐的碎碎念
 shortTitle: 首页
 index: false
 
+# navbar: false
+
 # heroFullScreen: true
 
 tagline: Yule's Chit-Chat
-
 # projects:
 
 # - icon: folder-open
@@ -60,3 +60,4 @@ tagline: Yule's Chit-Chat
 # desc: 自定义详细介绍
 
 # link: https://你的自定义链接
+---
