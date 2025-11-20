@@ -1,6 +1,6 @@
 ---
-title: VuePress Theme Hope 如何自定义字体
-description: 自定义 VuePress Theme Hope 字体
+title: VuePress Theme Hope 如何使用自定义的本地字体
+description: 自定义 VuePress Theme Hope 字体，包括设置本地字体文件和声明字体
 isOriginal: true
 
 category: ["前端", "Vue", "VuePress"]
@@ -15,7 +15,7 @@ tag: ["vuepress-theme-hope", "个性化", "woff2", "ttf"]
 
 ::: center
 
-![移动端显示效果 =x300](https://image.yule.ink/blog/移动端显示效果) ![PC端显示效果 =x300](https://image.yule.ink/blog/PC端显示效果.png)
+![移动端显示效果|0x200](https://image.yule.ink/blog/移动端显示效果) ![PC端显示效果|0x200](https://image.yule.ink/blog/PC端显示效果.png)
 
 :::
 

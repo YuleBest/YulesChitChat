@@ -85,6 +85,7 @@ export default hopeTheme({
     math: {
       type: "katex",
     },
+    obsidianImgSize: true,
 
     // 如果你需要幻灯片，安装 @vuepress/plugin-revealjs 并取消下方注释
     // revealjs: {
