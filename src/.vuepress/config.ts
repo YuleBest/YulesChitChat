@@ -19,35 +19,35 @@ export default defineUserConfig({
     [
       "link",
       {
-        rel: "preload",
+        rel: "stylesheet",
         href: "/assets/fonts/woff2/PingFangSC-Regular.woff2",
       },
     ],
     [
       "link",
       {
-        rel: "preload",
+        rel: "stylesheet",
         href: "/assets/fonts/woff2/PingFangSC-Light.woff2",
       },
     ],
     [
       "link",
       {
-        rel: "preload",
+        rel: "stylesheet",
         href: "/assets/fonts/woff2/PingFangSC-Medium.woff2",
       },
     ],
     [
       "link",
       {
-        rel: "preload",
+        rel: "stylesheet",
         href: "/assets/fonts/woff2/PingFangSC-Semibold.woff2",
       },
     ],
     [
       "link",
       {
-        rel: "preload",
+        rel: "stylesheet",
         href: "/assets/fonts/woff2/PingFangSC-Thin.woff2",
       },
     ],

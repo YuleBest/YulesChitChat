@@ -27,7 +27,7 @@ export default defineUserConfig({
     [
       "link",
       {
-        rel: "preload", // preload 表示提前加载字体文件，避免在页面渲染时再加载
+        rel: "stylesheet",
         href: "/assets/fonts/woff2/PingFangSC-Regular.woff2", // 这里修改成你字体实际的路径
       },
     ],
@@ -35,8 +35,8 @@ export default defineUserConfig({
     [
       "link",
       {
-        rel: "preload",
-        href: "/assets/fonts/woff2/PingFangSC-Thin.woff",
+        rel: "stylesheet",
+        href: "/assets/fonts/woff2/PingFangSC-Thin.woff2",
       },
     ],
 
