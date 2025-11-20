@@ -24,7 +24,8 @@ export default hopeTheme({
   sidebar,
 
   // 页脚
-  footer: "默认页脚",
+  footer: "",
+  license: "MIT",
   displayFooter: true,
 
   // 博客相关

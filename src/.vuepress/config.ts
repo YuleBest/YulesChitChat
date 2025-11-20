@@ -27,7 +27,28 @@ export default defineUserConfig({
       "link",
       {
         rel: "preload",
-        href: "/assets/fonts/woff2/PingFangSC-Regular.ttf",
+        href: "/assets/fonts/woff2/PingFangSC-Light.woff2",
+      },
+    ],
+    [
+      "link",
+      {
+        rel: "preload",
+        href: "/assets/fonts/woff2/PingFangSC-Medium.woff2",
+      },
+    ],
+    [
+      "link",
+      {
+        rel: "preload",
+        href: "/assets/fonts/woff2/PingFangSC-Semibold.woff2",
+      },
+    ],
+    [
+      "link",
+      {
+        rel: "preload",
+        href: "/assets/fonts/woff2/PingFangSC-Thin.woff2",
       },
     ],
   ],
