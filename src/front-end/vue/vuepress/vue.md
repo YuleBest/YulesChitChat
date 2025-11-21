@@ -1,6 +1,6 @@
 ---
-title: 在VuePress的Markdown文档里使用Vue语法
-description: 介绍如何在VuePress的文档里使用Vue语法
+title: 在 VuePress 的 Markdown 文档里使用Vue语法
+description: 介绍如何在 VuePress 的文档里使用Vue语法
 isOriginal: true
 author: Yule
 

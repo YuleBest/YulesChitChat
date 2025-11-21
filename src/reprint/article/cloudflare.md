@@ -1,6 +1,6 @@
 ---
-title: Cloudflare服务中断故障报告（2025年11月18日）
-description: Cloudflare在11月18日故障修复后发布的报告。
+title: Cloudflare 服务中断故障报告（2025-11-18）
+description: Cloudflare 在 2025 年 11 月 18 日（北京时间 19 日）故障修复后发布的报告。
 isOriginal: false
 author: ["Cloudflare", "Matthew Prince"]
 
