@@ -1,19 +1,4 @@
 // 声明字体
-$pf-fonts: (
-  400: "PingFangSC-Regular",
-  500: "PingFangSC-Medium",
-  600: "PingFangSC-Semibold",
-);
-
-@each $weight, $file in $pf-fonts {
-  @font-face {
-    font-family: "PingFang SC";
-    src: url("/assets/fonts/woff2/#{$file}.woff2") format("woff2");
-    font-weight: $weight;
-    font-display: swap;
-  }
-}
-
 $inter-fonts: (
   400: "InterDisplay-Regular",
   500: "InterDisplay-Medium",
@@ -34,6 +19,12 @@ $inter-fonts: (
   src: url("/assets/fonts/woff2/JetBrainsMono-Regular.woff2") format("woff2");
   font-weight: 400;
   font-display: swap;
+}
+
+// 字体平滑处理
+body {
+  -webkit-font-smoothing: antialiased; /* For Webkit-based browsers (Chrome, Safari) */
+  -moz-osx-font-smoothing: grayscale; /* For Firefox on Mac OS X */
 }
 
 // 导航栏
