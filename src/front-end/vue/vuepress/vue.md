@@ -25,7 +25,7 @@ VuePress 是一个基于 Vue 的静态网站生成器，它的页面主要是用
 <!-- more -->
 
 ::: tip
-下面的内容默认你已掌握 [Vue 的基本语法](../vue-course-1)和 [Markdown 基本语法](./markdown/)
+下面的内容默认你已掌握 [Vue 的基本语法](../vue-course-1)和 [Markdown 基本语法](../../markdown/)
 :::
 
 ---
