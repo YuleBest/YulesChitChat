@@ -8,7 +8,7 @@ index: false
 
 # navbar: false
 
-# heroFullScreen: true
+heroFullScreen: true
 
 tagline: Yule's Chit-Chat
 # projects:
