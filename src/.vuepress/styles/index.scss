@@ -2,7 +2,7 @@
 $inter-fonts: (
   400: "InterDisplay-Regular",
   500: "InterDisplay-Medium",
-  600: "InterDisplay-Semibold",
+  600: "InterDisplay-SemiBold",
 );
 
 @each $weight, $file in $inter-fonts {
@@ -58,8 +58,8 @@ body {
 
   // 名称优化（左上角）
   .vp-site-name {
-    font-size: 1.2rem;
-    font-weight: bold;
+    font-size: 1rem;
+    font-weight: 500;
   }
 }
 
@@ -125,7 +125,7 @@ body {
   span {
     font-size: 1.325rem;
     line-height: 1.3rem;
-    font-weight: bold;
+    font-weight: 600;
   }
 }
 
@@ -185,4 +185,54 @@ body {
 
 .vp-navbar {
   backdrop-filter: saturate(150%) blur(5px);
+}
+
+// 组件优化
+
+.vp-blog-info-wrapper,
+.vp-article-item {
+  border: 1px solid white;
+  border-radius: 20px;
+}
+
+.vp-blog-mask::after {
+  display: none;
+}
+
+.vp-article-item {
+  transition: all 0.3s ease-in-out;
+}
+
+.vp-article-item:hover {
+  border: 1px solid rgba($color: #0048ff, $alpha: 0.5);
+  background-color: rgba($color: #0048ff, $alpha: 0.1);
+  cursor: pointer;
+}
+
+.vp-article-hr {
+  display: none;
+}
+
+header.vp-article-title::after {
+  display: none;
+}
+
+// 面包屑优化
+.vp-breadcrumb li + li::before {
+  content: " > ";
+}
+
+// 页面优化
+.main-content .vp-page {
+  padding-inline-start: calc(var(--sidebar-space) + 4rem);
+}
+
+.vp-page-title h1 {
+  font-size: 2rem;
+  padding-top: 4rem !important;
+  padding-bottom: 0.5rem;
+}
+
+.vp-toc-header {
+  font-weight: 400;
 }

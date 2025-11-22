@@ -2,6 +2,7 @@ import { hopeTheme } from "vuepress-theme-hope";
 
 import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
+import { Content } from "vuepress/client";
 
 export default hopeTheme({
   hostname: "https://blog.yule.ink",
@@ -27,6 +28,9 @@ export default hopeTheme({
   footer: "",
   license: "MIT",
   displayFooter: true,
+
+  // 深色模式
+  darkmode: "enable",
 
   // 博客相关
   blog: {

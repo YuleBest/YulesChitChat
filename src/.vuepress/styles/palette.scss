@@ -1,8 +1,40 @@
 // you can change colors here
 $vp-font: '"Inter", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"';
-$vp-font-heading: '"Inter", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"';
+$vp-font-heading: var(--vp-font);
 $vp-font-mono: '"JetBrains Mono", ui-monospace,  SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji", monospace';
 
 // 修改导航栏
 $navbar-height: 3.5rem;
 $navbar-mobile-height: 3.8rem;
+
+// 颜色修改 - X (Twitter) 深色模式风格
+
+// 文字 - 柔和的灰白色系
+$vp-c-text: #e7e9ea;
+$vp-c-text-mute: #b9bbbe;
+$vp-c-text-subtle: #71767b;
+
+// 背景 - 深黑色背景
+$vp-c-bg: #000000;
+$vp-c-bg-alt: #16181c;
+$vp-c-bg-elv: #000000;
+
+// 阴影
+$vp-c-shadow: rgba(0, 0, 0, 0.5);
+
+// 强调色 - X 的标志性蓝色
+$vp-c-accent: #ffffff;
+$vp-c-accent-hover: #1a8cd8;
+$vp-c-accent-bg: #1d9bf0;
+$vp-c-accent-text: #ffffff;
+$vp-c-accent-soft: rgba(88, 88, 88, 0.34);
+
+// 边框和分隔线 - 细腻的深灰色
+$vp-c-border: #2f3336;
+$vp-c-divider: #2f3336;
+$vp-c-border-hard: #3d4144;
+
+// 控件
+$vp-c-control: #16181c;
+$vp-c-control-hover: #1e2126;
+$vp-c-control-disabled: #2f3336;
