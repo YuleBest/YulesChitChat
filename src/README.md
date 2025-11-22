@@ -1,7 +1,7 @@
 ---
 home: true
 layout: Blog
-bgImage: "https://www.dmoe.cc/random.php"
+bgImage: "https://www.loliapi.com/acg"
 heroText: 于乐的碎碎念
 shortTitle: 首页
 index: false
