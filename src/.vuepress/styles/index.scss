@@ -124,7 +124,7 @@ body {
 .vp-article-title {
   span {
     font-size: 1.325rem;
-    line-height: 1.3rem;
+    line-height: 1.2rem;
     font-weight: 600;
   }
 }
@@ -132,6 +132,7 @@ body {
 .vp-article-excerpt {
   opacity: 0.5;
   font-size: 0.8rem;
+  padding-bottom: 0.5rem;
 }
 
 .page-info {
@@ -189,10 +190,13 @@ body {
 
 // 组件优化
 
-.vp-blog-info-wrapper,
-.vp-article-item {
-  border: 1px solid white;
+.vp-article-item,
+.vp-blogger-info,
+.vp-blog-infos {
+  border: 1px solid rgba(255, 255, 255, 0.408);
   border-radius: 20px;
+  background-color: #00000000;
+  background: #00000000;
 }
 
 .vp-blog-mask::after {
@@ -201,12 +205,12 @@ body {
 
 .vp-article-item {
   transition: all 0.3s ease-in-out;
+  cursor: pointer;
 }
 
 .vp-article-item:hover {
-  border: 1px solid rgba($color: #0048ff, $alpha: 0.5);
-  background-color: rgba($color: #0048ff, $alpha: 0.1);
-  cursor: pointer;
+  border: 1px solid rgba($color: #ffffff, $alpha: 0.5);
+  background-color: rgba($color: #585858, $alpha: 0.2);
 }
 
 .vp-article-hr {
@@ -233,6 +237,24 @@ header.vp-article-title::after {
   padding-bottom: 0.5rem;
 }
 
-.vp-toc-header {
-  font-weight: 400;
+// .vp-toc-header {
+//   // font-weight: 400;
+//   display: none;
+// }
+
+.vp-toc-marker {
+  background: #ffffff;
+}
+
+.toggle-sidebar-wrapper {
+  display: none;
+}
+
+.vp-blog-type-icon-wrapper.active {
+  border: 1px solid rgba($color: #ffffff, $alpha: 0.5);
+}
+
+.vp-nav-screen {
+  background: #000000d2;
+  backdrop-filter: blur(20px);
 }
