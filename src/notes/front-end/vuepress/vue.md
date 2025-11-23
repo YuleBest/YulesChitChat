@@ -20,7 +20,7 @@ const randomNumber = () => {
 
 VuePress 是一个基于 Vue 的静态网站生成器，它的页面主要是用 Markdown 编写的。在 VuePress 中，Markdown 最终转换为 Vue 组件，因此在文档中使用 Vue 语法是非常方便的。（VuePress 中的文档，我们下面简称为文档）
 
-在文档中使用 Vue 有两种方式，分别是使用 Vue 语法和使用 Vue 组件，下面将分别介绍。
+在文档中使用 Vue 有两种方式，分别是使用 Vue 模板语法和使用 Vue 组件，下面将分别介绍。
 
 <!-- more -->
 
@@ -30,19 +30,9 @@ VuePress 是一个基于 Vue 的静态网站生成器，它的页面主要是用
 
 ---
 
-## 使用 Vue 语法
+## 使用 Vue 模板语法
 
-::: warning 注意
-由于文档最终被转换为 Vue 组件，所以：
-
-- 若通过使用语法的方式来使用 Vue，则每个文档里只能使用一次 `<script>` 标签（和 Vue 一致）
-- 不能使用 `<template>` 标签，模板语法可以直接写
-- 需要使用 `<script setup>` 来暴露模板中的变量，而不能使用 `<script>`
-- 推荐使用 `<style scoped>` 而不是 `<style>`，这可以避免样式污染
-
-:::
-
-你可以直接在 Markdown 中编写 Vue 语法，比如：
+你可以直接在 Markdown 中使用 Vue 模板语法，比如：
 
 ```md
 一加一等于 {{ 1 + 1 }}
@@ -60,7 +50,7 @@ VuePress 是一个基于 Vue 的静态网站生成器，它的页面主要是用
 将渲染为：
 <span v-for="i in 10"> {{ i }} </span>
 
-你也可以使用 `<style scoped>` 和 `<script setup>` 来定义组件的样式和逻辑。
+使用此方式，你不能使用 `<style scoped>` 和 `<script setup>` ，因为这些标签被用于页面本身的逻辑和样式定义。
 
 ---
 
@@ -70,7 +60,7 @@ VuePress 是一个基于 Vue 的静态网站生成器，它的页面主要是用
 
 `@source` 是 VuePress 提供的一个别名，指向项目的源目录（`src/` 或 `docs/`）。
 
-### 局部导入 [^1]
+### 局部导入
 
 ::: tip
 局部导入的组件仅在当前文档中可以用，在其他文档需要重新导入
