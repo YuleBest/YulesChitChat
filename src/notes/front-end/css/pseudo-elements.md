@@ -4,6 +4,7 @@ shortTitle: CSS 伪元素介绍
 description: 介绍了 CSS 中的伪元素概念
 isOriginal: true
 author: Yule
+date: 2025-11-23
 
 category: ["笔记"]
 tag: ["前端", "CSS", "伪元素"]
