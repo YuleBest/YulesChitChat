@@ -40,8 +40,8 @@ body {
     padding: 0 15px;
   }
 
-  .vp-nav-item::before {
-    display: none;
+  .auto-link::before {
+    background: #ffffff;
   }
 
   .route-link-active {
