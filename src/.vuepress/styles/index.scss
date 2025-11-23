@@ -23,64 +23,78 @@ $inter-fonts: (
 
 // 字体平滑处理
 body {
-  -webkit-font-smoothing: antialiased; /* For Webkit-based browsers (Chrome, Safari) */
-  -moz-osx-font-smoothing: grayscale; /* For Firefox on Mac OS X */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 // 导航栏
 .vp-navbar {
-  // 去掉下拉箭头
-  span.arrow {
-    display: none !important;
-  }
+  backdrop-filter: saturate(150%) blur(5px);
 
-  // 去掉 icon
+  span.arrow,
   iconify-icon {
     display: none !important;
   }
 
-  // 增加图标间距
-  .vp-navbar-center {
-    .vp-nav-item {
-      padding: 0 15px;
-    }
+  .vp-navbar-center .vp-nav-item {
+    padding: 0 15px;
   }
 
-  // 下划线
-  .vp-nav-item ::before {
+  .vp-nav-item::before {
     display: none;
   }
 
-  // 选中优化
   .route-link-active {
     font-weight: bold;
   }
 
-  // 名称优化（左上角）
   .vp-site-name {
     font-size: 1rem;
     font-weight: 500;
   }
 }
 
-.nav-screen-links {
-  iconify-icon {
-    display: none !important;
+.nav-screen-links iconify-icon {
+  display: none !important;
+}
+
+.vp-nav-screen {
+  background: #000000d2;
+  backdrop-filter: blur(20px);
+}
+
+.vp-nav-item {
+  transition: all 0.3s ease-in-out;
+  border-radius: 10px;
+
+  &:hover {
+    background-color: rgba(#585858, 0.2);
   }
 }
 
-// 首页图半透明遮罩
-.vp-blog-mask::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba($color: #000000, $alpha: 0.4);
+// 首页图半透明遮罩与圆角
+.vp-blog-mask {
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+
+  &::after {
+    display: none;
+  }
+
+  &,
+  &::before,
+  &::after {
+    border-radius: 0 0 20px 20px;
+  }
 }
 
-// 圆角优化
 .vp-blogger-info,
 .vp-article-item,
 .vp-article-cover,
@@ -88,35 +102,42 @@ body {
   border-radius: 20px !important;
 }
 
-.vp-blog-mask,
-.vp-blog-mask::after,
-.vp-blog-mask::before {
-  border-radius: 0px 0px 20px 20px;
-}
-
 .vp-project-card {
   border-radius: 18px !important;
 }
 
-.vp-page-nav {
-  padding: 15px !important;
-  .route-link {
-    border-radius: 15px !important;
-    padding: 15px 15px !important;
+// 文章卡片
+.vp-article-item {
+  border: 1px solid rgba(255, 255, 255, 0.252);
+  background: transparent;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+
+  &:hover {
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    background-color: rgba(88, 88, 88, 0.2);
   }
 }
 
-// 文章卡片优化
-.vp-article-wrapper :hover {
-  transition: all 0.3s ease-in-out;
+// 大屏侧边栏边框
+@media screen and (min-width: 959px) {
+  .vp-blogger-info,
+  .vp-blog-infos {
+    border: 1px solid rgba(255, 255, 255, 0.252);
+    background: transparent;
+  }
 }
 
+// 文章内容与列表
 .vp-article-wrapper {
+  &:hover {
+    transition: all 0.3s ease-in-out;
+  }
+
   .sticky-icon {
     padding: 20px;
-    // color: white;
     svg {
-      box-shadow: 10px 10px 10px rgba($color: #000000, $alpha: 0.5);
+      box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
     }
   }
 }
@@ -127,6 +148,9 @@ body {
     line-height: 1.2rem;
     font-weight: 600;
   }
+  &::after {
+    display: none;
+  }
 }
 
 .vp-article-excerpt {
@@ -135,10 +159,18 @@ body {
   padding-bottom: 0.5rem;
 }
 
+.vp-article-hr {
+  display: none;
+}
+
+// 页面 Meta 信息
 .page-info {
+  opacity: 0.9;
+
   .page-author-info {
     margin-inline-end: 0.2em !important;
   }
+
   .page-original-info,
   .page-reading-time-info,
   .page-category-info,
@@ -151,26 +183,6 @@ body {
   }
 }
 
-.page-info {
-  opacity: 0.9;
-}
-
-// 文章面包屑导航优化
-.vp-breadcrumb {
-  font-size: 0.75rem;
-}
-
-// 首页边距优化
-.blog-page-wrapper {
-  padding: 0 18px;
-}
-
-// 作者名称加粗
-.vp-blogger-name {
-  font-weight: bold;
-}
-
-// 文章分类标签优化
 .page-category-item {
   padding: 0 0.5em !important;
 }
@@ -180,55 +192,38 @@ body {
   border-radius: 0.25em;
 }
 
+// 面包屑
+.vp-breadcrumb {
+  font-size: 0.75rem;
+  li + li::before {
+    content: " > ";
+  }
+}
+
+// 页面布局
+.blog-page-wrapper {
+  padding: 0 18px;
+}
+
 .vp-page.vp-blog-home {
   padding-top: 0 !important;
 }
 
-.vp-navbar {
-  backdrop-filter: saturate(150%) blur(5px);
-}
-
-// 组件优化
-
-.vp-article-item,
-.vp-blogger-info,
-.vp-blog-infos {
-  border: 1px solid rgba(255, 255, 255, 0.408);
-  border-radius: 20px;
-  background-color: #00000000;
-  background: #00000000;
-}
-
-.vp-blog-mask::after {
-  display: none;
-}
-
-.vp-article-item {
-  transition: all 0.3s ease-in-out;
-  cursor: pointer;
-}
-
-.vp-article-item:hover {
-  border: 1px solid rgba($color: #ffffff, $alpha: 0.5);
-  background-color: rgba($color: #585858, $alpha: 0.2);
-}
-
-.vp-article-hr {
-  display: none;
-}
-
-header.vp-article-title::after {
-  display: none;
-}
-
-// 面包屑优化
-.vp-breadcrumb li + li::before {
-  content: " > ";
-}
-
-// 页面优化
 .main-content .vp-page {
   padding-inline-start: calc(var(--sidebar-space) + 4rem);
+}
+
+.vp-page-nav {
+  padding: 15px !important;
+  .route-link {
+    border-radius: 15px !important;
+    padding: 15px !important;
+  }
+}
+
+// 其他组件
+.vp-blogger-name {
+  font-weight: bold;
 }
 
 .vp-page-title h1 {
@@ -236,11 +231,6 @@ header.vp-article-title::after {
   padding-top: 4rem !important;
   padding-bottom: 0.5rem;
 }
-
-// .vp-toc-header {
-//   // font-weight: 400;
-//   display: none;
-// }
 
 .vp-toc-marker {
   background: #ffffff;
@@ -251,10 +241,12 @@ header.vp-article-title::after {
 }
 
 .vp-blog-type-icon-wrapper.active {
-  border: 1px solid rgba($color: #ffffff, $alpha: 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.5);
 }
 
-.vp-nav-screen {
-  background: #000000d2;
-  backdrop-filter: blur(20px);
+.vp-back-to-top-button {
+  background: #0000004c;
+  backdrop-filter: blur(2px);
+  border: 1px solid #00000089;
+  transition: all 0.3s ease-in-out;
 }
