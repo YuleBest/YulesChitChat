@@ -1,7 +1,7 @@
 ---
 home: true
 layout: Blog
-bgImage: "https://www.loliapi.com/acg"
+bgImage: "https://bwp.yule.ink/"
 heroText: 于乐的碎碎念
 shortTitle: 首页
 index: false

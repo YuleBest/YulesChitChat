@@ -5,7 +5,7 @@ description: 介绍 Markdown 的标题语法
 isOriginal: true
 author: Yule
 
-category: ["前端"]
+category: ["笔记"]
 tag: ["Markdown", "教程"]
 excerpt: Markdown 支持两种标题语法：类 ATX 和类 Setext，现在主要使用类 ATX 语法
 

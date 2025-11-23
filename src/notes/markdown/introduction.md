@@ -5,7 +5,7 @@ description: 介绍 Markdown 的引言语法
 isOriginal: true
 author: Yule
 
-category: ["前端"]
+category: ["笔记"]
 tag: ["Markdown", "教程"]
 excerpt: Markdown 支持行引言和块引言
 

@@ -4,7 +4,7 @@ description: 介绍如何在 VuePress 的文档里使用 Vue 语法
 isOriginal: true
 author: Yule
 
-category: ["前端"]
+category: ["笔记"]
 tag: ["Vue", "VuePress", "Markdown"]
 ---
 

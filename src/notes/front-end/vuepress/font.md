@@ -4,7 +4,7 @@ description: 自定义 VuePress Theme Hope 字体，包括设置本地字体文�
 isOriginal: true
 author: Yule
 
-category: ["前端"]
+category: ["笔记"]
 tag: ["Vue", "VuePress", "vuepress-theme-hope", "个性化"]
 ---
 
