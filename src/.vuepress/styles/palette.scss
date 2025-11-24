@@ -7,34 +7,88 @@ $vp-font-mono: '"JetBrains Mono", ui-monospace,  SFMono-Regular, Menlo, Monaco, 
 $navbar-height: 3.5rem;
 $navbar-mobile-height: 3.8rem;
 
-// 颜色修改 - X (Twitter) 深色模式风格
+// 颜色修改 - 深色/浅色双主题
 
-// 文字 - 柔和的灰白色系
-$vp-c-text: #e7e9ea;
-$vp-c-text-mute: #b9bbbe;
-$vp-c-text-subtle: #71767b;
+// 文字
+$vp-c-text: (
+  dark: #e7e9ea,
+  light: #1a1a1a,
+);
+$vp-c-text-mute: (
+  dark: #b9bbbe,
+  light: #4a5568,
+);
+$vp-c-text-subtle: (
+  dark: #71767b,
+  light: #718096,
+);
 
-// 背景 - 深黑色背景
-$vp-c-bg: #1212122b;
-$vp-c-bg-alt: #16181c;
-$vp-c-bg-elv: #2020202b;
+// 背景
+$vp-c-bg: (
+  dark: #1212122b,
+  light: #ffffff,
+);
+$vp-c-bg-alt: (
+  dark: #16181c,
+  light: #f7fafc,
+);
+$vp-c-bg-elv: (
+  dark: #2020202b,
+  light: #edf2f7,
+);
 
 // 阴影
-$vp-c-shadow: rgba(0, 0, 0, 0.5);
+$vp-c-shadow: (
+  dark: rgba(0, 0, 0, 0.5),
+  light: rgba(0, 0, 0, 0.5),
+);
 
-// 强调色 - X 的标志性蓝色
-$vp-c-accent: #ffffff;
-$vp-c-accent-hover: #1a8cd8;
-$vp-c-accent-bg: #3c3c3c;
-$vp-c-accent-text: #ffffff;
-$vp-c-accent-soft: rgba(88, 88, 88, 0.34);
+// 强调色
+$vp-c-accent: (
+  dark: #ffffff,
+  light: #5b21b6,
+);
+$vp-c-accent-hover: (
+  dark: #ffffff,
+  light: #000000,
+);
+$vp-c-accent-bg: (
+  dark: #3c3c3c,
+  light: #ede9fe,
+);
+$vp-c-accent-text: (
+  dark: #ffffff,
+  light: #ffffff,
+);
+$vp-c-accent-soft: (
+  dark: rgba(88, 88, 88, 0.34),
+  light: rgba(139, 92, 246, 0.14),
+);
 
-// 边框和分隔线 - 细腻的深灰色
-$vp-c-border: #2f3336;
-$vp-c-divider: #2f3336;
-$vp-c-border-hard: #3d4144;
+// 边框和分隔线
+$vp-c-border: (
+  dark: #2f3336,
+  light: #e2e8f0,
+);
+$vp-c-divider: (
+  dark: #2f3336,
+  light: #cbd5e0,
+);
+$vp-c-border-hard: (
+  dark: #3d4144,
+  light: #a0aec0,
+);
 
 // 控件
-$vp-c-control: #16181c;
-$vp-c-control-hover: #1e2126;
-$vp-c-control-disabled: #2f3336;
+$vp-c-control: (
+  dark: #16181c,
+  light: #ffffff,
+);
+$vp-c-control-hover: (
+  dark: #1e2126,
+  light: #f7fafc,
+);
+$vp-c-control-disabled: (
+  dark: #2f3336,
+  light: #e2e8f0,
+);

@@ -30,7 +30,7 @@ export default hopeTheme({
   displayFooter: true,
 
   // 深色模式
-  darkmode: "enable",
+  darkmode: "switch",
 
   // 博客相关
   blog: {
