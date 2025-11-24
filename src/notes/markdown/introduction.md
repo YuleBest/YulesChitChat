@@ -4,6 +4,7 @@ shortTitle: 引言
 description: 介绍 Markdown 的引言语法
 isOriginal: true
 author: Yule
+date: 2025-11-22
 
 category: ["笔记"]
 tag: ["Markdown", "教程"]

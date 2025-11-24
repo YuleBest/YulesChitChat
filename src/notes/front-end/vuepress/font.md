@@ -3,6 +3,7 @@ title: VuePress Theme Hope 使用自定义的本地字体
 description: 自定义 VuePress Theme Hope 字体，包括设置本地字体文件和声明字体
 isOriginal: true
 author: Yule
+date: 2025-11-21
 
 category: ["笔记"]
 tag: ["Vue", "VuePress", "vuepress-theme-hope", "个性化"]
