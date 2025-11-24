@@ -254,3 +254,9 @@ html {
 .vp-navbar .auto-link.route-link-active {
   color: var(--vp-c-text);
 }
+
+.footnote-item > p,
+.footnote-item::marker {
+  margin-top: 0;
+  font-size: 0.85em;
+}
