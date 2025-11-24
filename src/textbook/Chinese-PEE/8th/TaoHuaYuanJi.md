@@ -46,7 +46,8 @@ excerpt: 由陶渊明创作的《桃花源记》
 [^17]: 自“既出”至“问津者”：《艺文类聚》作“既出，白太守。太守遣人随而寻之，迷不复得路”，《太平御览》作“既出，白太守，遣人随往寻之，迷不复得”。两书均无“南阳刘子骥”至篇末数句。规：绍兴本、李注本作“亲”，非是。
 
 <style scoped lang="scss">
-  p {
+  p:not(.footnotes-list li p) {
     font-family: 'Noto Serif SC', serif;
+    text-indent: 2em;
   }
 </style>
