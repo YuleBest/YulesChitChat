@@ -123,8 +123,8 @@ excerpt: 由鲁迅创作的《社戏》
 :::
 
 <style scoped lang="scss">
-  p:not(.footnotes-list li p) {
-    font-family: 'Noto Serif SC', serif;
-    text-indent: 2em;
+  p:not(.footnotes-list li p, .hint-container p) {
+    font-family: 'Noto Serif SC', serif !important;
+    text-indent: 2em !important;
   }
 </style>

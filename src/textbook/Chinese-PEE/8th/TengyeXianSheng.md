@@ -95,8 +95,8 @@ excerpt: 由鲁迅创作的《藤野先生》
 他所改正的讲义，我曾经订成三厚本，收藏著的，将作为永久的纪念。不幸七年前迁居的时候，中途毁坏了一口书箱，失去半箱书，恰巧这讲义也遗失在内了。责成运送局去找寻，寂无回信。只有他的照相至今还挂在我北京寓居的东墙上，书桌对面。每当夜间疲倦，正想偷懒时，仰面在灯光中瞥见他黑瘦的面貌，似乎正要说出抑扬顿挫的话来，便使我忽又良心发现，而且增加勇气了，于是点上一枝烟，再继续写些为“正人君子”之流所深恶痛疾的文字。
 
 <style scoped lang="scss">
-  p:not(.footnotes-list li p) {
-    font-family: 'Noto Serif SC', serif;
-    text-indent: 2em;
+  p:not(.footnotes-list li p, .hint-container p) {
+    font-family: 'Noto Serif SC', serif !important;
+    text-indent: 2em !important;
   }
 </style>
