@@ -49,5 +49,9 @@ excerpt: 由陶渊明创作的《桃花源记》
   p:not(.footnotes-list li p, .hint-container p) {
     font-family: 'Noto Serif SC', serif !important;
     text-indent: 2em !important;
+    margin-top: 0.25em;
+    margin-bottom: 0.25em;
+    line-height: 1.8;
+    align: left;
   }
 </style>
