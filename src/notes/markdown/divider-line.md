@@ -10,6 +10,7 @@ tag: ["Markdown", "教程"]
 excerpt: Markdown 支持分隔线
 
 order: 6
+article: false
 ---
 
 Markdown 支持分隔线，分隔线的语法是连续三个或三个以上的星号 `*`、减号 `-` 或下划线 `_`，行内不能有其他字符。推荐使用减号 `-`。

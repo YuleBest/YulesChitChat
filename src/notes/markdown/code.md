@@ -11,6 +11,7 @@ tag: ["Markdown", "教程"]
 excerpt: Markdown 支持行内代码和代码块
 
 order: 5
+article: false
 ---
 
 Markdown 支持行内代码和代码块。

@@ -11,6 +11,7 @@ tag: ["Markdown", "教程"]
 excerpt: Markdown 支持插入图片
 
 order: 9
+article: false
 ---
 
 Markdown 支持图片语法。图片语法是 `![alt](url)`，其中 `alt` 是图片的替代文本，`url` 是图片的 URL。

@@ -11,6 +11,7 @@ tag: ["Markdown", "教程"]
 excerpt: Markdown 支持粗体、斜体和高亮
 
 order: 8
+article: false
 ---
 
 Markdown 支持强调语法，包含了粗体、斜体和高亮。

@@ -11,6 +11,7 @@ tag: ["Markdown", "教程"]
 excerpt: Markdown 支持无序列表和有序列表
 
 order: 4
+article: false
 ---
 
 Markdown 支持无序列表和有序列表。

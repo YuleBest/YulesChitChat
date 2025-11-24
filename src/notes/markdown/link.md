@@ -11,6 +11,7 @@ tag: ["Markdown", "教程"]
 excerpt: Markdown 支持行内链接与参考链接
 
 order: 7
+article: false
 ---
 
 Markdown 支持行内链接与参考链接。不管是哪一种，链接的文字都是用 `[方括号]` 来标记。

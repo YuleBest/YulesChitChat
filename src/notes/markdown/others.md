@@ -11,6 +11,7 @@ tag: ["Markdown", "教程"]
 excerpt: Markdown 支持 的其他语法与特性
 
 order: 12
+article: false
 ---
 
 你已经学习完成 Markdown 的基本语法和特性了，恭喜你！

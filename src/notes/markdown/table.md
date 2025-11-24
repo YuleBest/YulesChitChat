@@ -11,6 +11,7 @@ tag: ["Markdown", "教程"]
 excerpt: Markdown 支持表格
 
 order: 10
+article: false
 ---
 
 Markdown 支持表格语法。Markdown 的表格是比较难看的，你通常需要使用 Typora 这类可视化工具进行编辑。
