@@ -58,5 +58,6 @@ excerpt: 由陶渊明创作的《桃花源记》
     letter-spacing: var(--ls);
     text-align: justify;
     text-justify: inter-ideograph;
+    text-shadow: 0.03em 0.03em rgba(0,0,0,0.03);
   }
 </style>

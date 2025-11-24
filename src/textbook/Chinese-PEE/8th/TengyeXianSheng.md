@@ -107,5 +107,6 @@ excerpt: 由鲁迅创作的《藤野先生》
     letter-spacing: var(--ls);
     text-align: justify;
     text-justify: inter-ideograph;
+    text-shadow: 0.03em 0.03em rgba(0,0,0,0.03);
   }
 </style>
