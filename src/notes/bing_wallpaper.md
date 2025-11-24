@@ -13,7 +13,7 @@ excerpt:
 cover: https://image.yule.ink/blog/bing_wallpaper-homepage.png
 ---
 
-Bing 每日壁纸是指微软 Bing 官网展示的壁纸，每天会进行更换，官方 API 接口 `https://cn.bing.com/HPImageArchive.aspx?format=js&idx=0&n=1` 响应的数据是 JSON 格式，我们的目标是提取出 `images.url` 字段，然后返回给用户。
+Bing 每日壁纸是指微软 Bing 官网展示的壁纸，每天会进行更换，官方 API 接口 `https://cn.bing.com/HPImageArchive.aspx?format=js&idx=0&n=1` 响应的数据是 JSON 格式，我们的目标是提取出 `images[0].urlbase` 字段，经过处理后返回给用户。
 
 <!-- more -->
 
@@ -30,9 +30,9 @@ Bing 每日壁纸的 API 接口：`https://cn.bing.com/HPImageArchive.aspx?forma
 
 这里的 `idx` 参数表示返回的图片的索引（`0` 为今天），`n` 参数表示返回的图片数量。
 
-它返回的是一个 JSON 格式的数据，其中 `images.urlbase` 字段就是我们要的壁纸地址的前缀：
+它返回的是一个 JSON 格式的数据，其中 `images[0].urlbase` 字段就是我们要的壁纸地址的前缀：
 
-```json 7
+```json 8
 {
   "images": [
     {
