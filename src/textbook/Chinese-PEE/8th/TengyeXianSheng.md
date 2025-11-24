@@ -96,13 +96,16 @@ excerpt: 由鲁迅创作的《藤野先生》
 
 <style scoped lang="scss">
   p:not(.footnotes-list li p, .hint-container p) {
+    --ls: 0.03em;
     font-family: 'Noto Serif SC', serif !important;
-    text-indent: 2em !important;
+    text-indent: calc(2em + 2 * var(--ls)) !important;
     margin-top: 0.25em;
     margin-bottom: 0.25em;
     line-height: 1.8;
-    align: left;
-    font-size: 1.2em;
+    font-size: 1.15em;
     font-weight: 450;
+    letter-spacing: var(--ls);
+    text-align: justify;
+    text-justify: inter-ideograph;
   }
 </style>
