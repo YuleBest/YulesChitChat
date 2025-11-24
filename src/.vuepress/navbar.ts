@@ -4,6 +4,6 @@ export default navbar([
   "/",
   {
     text: "笔记",
-    link: "/category/笔记/",
+    link: "/notes/",
   },
 ]);
