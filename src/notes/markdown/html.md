@@ -31,6 +31,12 @@ HTML 语法是将 HTML 标签直接写入 Markdown 源文件中，支持 HTML �
 
 <p>段落</p>
 
+<p align="left">居左</p>
+
+<p align="center">居中</p>
+
+<p align="right">居右</p>
+
 <code>行内代码</code>
 
 <pre>
@@ -42,6 +48,10 @@ HTML 语法是将 HTML 标签直接写入 Markdown 源文件中，支持 HTML �
 <a href="https://www.google.com">链接</a>
 
 <p>换<br>行</p>
+
+<font size=24 color=red>24 号字体</font>
+
+<u>下划线文本</u>
 ```
 
 @tab 渲染效果
@@ -50,6 +60,12 @@ HTML 语法是将 HTML 标签直接写入 Markdown 源文件中，支持 HTML �
 
 <p>段落</p>
 
+<p align="left">居左</p>
+
+<p align="center">居中</p>
+
+<p align="right">居右</p>
+
 <code>行内代码</code>
 
 <pre>
@@ -62,4 +78,7 @@ HTML 语法是将 HTML 标签直接写入 Markdown 源文件中，支持 HTML �
 
 <p>换<br>行</p>
 
+<font size=24 color=red>24 号字体 + 红色</font>
+
+<u>下划线文本</u>
 :::
