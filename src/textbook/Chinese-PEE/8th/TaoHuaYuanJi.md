@@ -53,5 +53,7 @@ excerpt: 由陶渊明创作的《桃花源记》
     margin-bottom: 0.25em;
     line-height: 1.8;
     align: left;
+    font-size: 1.2em;
+    font-weight: 450;
   }
 </style>

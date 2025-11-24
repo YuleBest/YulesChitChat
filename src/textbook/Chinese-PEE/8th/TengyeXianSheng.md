@@ -102,5 +102,7 @@ excerpt: 由鲁迅创作的《藤野先生》
     margin-bottom: 0.25em;
     line-height: 1.8;
     align: left;
+    font-size: 1.2em;
+    font-weight: 450;
   }
 </style>
