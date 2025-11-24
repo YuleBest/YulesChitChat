@@ -6,6 +6,7 @@ export default sidebar({
   // 笔记
   "/notes/": [
     "/",
+    "/textbook/",
     {
       text: "笔记",
       link: "/notes/",
@@ -17,6 +18,7 @@ export default sidebar({
   "/notes/front-end/": [
     "/",
     "/notes/",
+    "/textbook/",
     {
       text: "前端",
       link: "/notes/front-end/",
@@ -28,6 +30,7 @@ export default sidebar({
   "/notes/markdown/": [
     "/",
     "/notes/",
+    "/textbook/",
     {
       text: "于乐的 Markdown 教程",
       link: "/notes/markdown/",
