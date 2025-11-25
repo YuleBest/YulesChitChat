@@ -30,17 +30,8 @@ export default defineUserConfig({
     [
       "link",
       {
-        href: "https://cdn.jsdelivr.net/npm/misans@4.1.0/lib/Normal/MiSans-Medium.min.css",
+        href: "https://cdn.jsdelivr.net/npm/misans-vf@1.0.0/lib/MiSans.min.css",
         rel: "stylesheet",
-        crossorigin: "anonymous",
-      },
-    ],
-    [
-      "link",
-      {
-        href: "https://cdn.jsdelivr.net/npm/misans@4.1.0/lib/Normal/MiSans-Bold.min.css",
-        rel: "stylesheet",
-        crossorigin: "anonymous",
       },
     ],
   ],
