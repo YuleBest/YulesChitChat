@@ -1,9 +1,9 @@
 import { defineClientConfig } from "vuepress/client";
-
-import VueDemo2 from "./components/VueDemo2.vue"; // 在这导入组件
+import VueDemo2 from "./components/VueDemo2.vue";
 
 export default defineClientConfig({
   enhance({ app }) {
-    app.component("VueDemo2", VueDemo2); // 全局注册
+    // 全局注册组件
+    app.component("VueDemo2", VueDemo2);
   },
 });

@@ -12,6 +12,8 @@ export default defineUserConfig({
 
   head: [
     // 字体
+
+    // Google Fonts API
     ["link", { rel: "preconnect", href: "https://fonts.googleapis.com" }],
     [
       "link",
@@ -22,6 +24,23 @@ export default defineUserConfig({
       {
         href: "https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap",
         rel: "stylesheet",
+      },
+    ],
+    // MiFonts
+    [
+      "link",
+      {
+        href: "https://cdn.jsdelivr.net/npm/misans@4.1.0/lib/Normal/MiSans-Medium.min.css",
+        rel: "stylesheet",
+        crossorigin: "anonymous",
+      },
+    ],
+    [
+      "link",
+      {
+        href: "https://cdn.jsdelivr.net/npm/misans@4.1.0/lib/Normal/MiSans-Bold.min.css",
+        rel: "stylesheet",
+        crossorigin: "anonymous",
       },
     ],
   ],
