@@ -32,9 +32,3 @@ excerpt: 要扫除一切害人虫，全无敌
 [^4]: 鸣镝（dí）：响箭，汉时匈奴冒顿单于用来发号施令。
 [^5]: 朝（zhāo）夕：一早一晚，这里指一天。
 [^6]: 四海：指全国范围内。
-
-<style scoped lang="scss">
-  ti {
-    text-indent: 2em;
-  }
-</style>

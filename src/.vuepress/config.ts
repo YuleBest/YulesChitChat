@@ -27,7 +27,7 @@ export default defineUserConfig({
       },
     ],
 
-    // Inter
+    // InterVariable
     [
       "link",
       {
@@ -41,6 +41,15 @@ export default defineUserConfig({
       "link",
       {
         href: "https://cdn.jsdelivr.net/npm/misans-vf@1.0.0/lib/MiSans.min.css",
+        rel: "stylesheet",
+      },
+    ],
+
+    // Yozai Light
+    [
+      "link",
+      {
+        href: "https://cdn.jsdelivr.net/npm/cn-fontsource-lxgw-wen-kai-screen/font.css",
         rel: "stylesheet",
       },
     ],

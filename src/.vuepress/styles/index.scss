@@ -240,3 +240,16 @@ html {
   margin-top: 0;
   font-size: 0.85em;
 }
+
+// 自定义字体和布局
+lxgw {
+  p {
+    font-family: "LXGW WenKai Screen", var(--vp-font);
+  }
+}
+
+ti {
+  p {
+    text-indent: 2em;
+  }
+}
