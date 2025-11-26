@@ -22,10 +22,20 @@ export default defineUserConfig({
     [
       "link",
       {
-        href: "https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap",
+        href: "https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap",
         rel: "stylesheet",
       },
     ],
+
+    // Inter
+    [
+      "link",
+      {
+        href: "https://cdnjs.cloudflare.com/ajax/libs/inter-ui/4.1.1/inter-variable.min.css",
+        rel: "stylesheet",
+      },
+    ],
+
     // MiFonts
     [
       "link",
