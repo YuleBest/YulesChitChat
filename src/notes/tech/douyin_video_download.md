@@ -231,3 +231,9 @@ main() {
 clear
 main
 ```
+
+### JS 实现
+
+使用大善人 Cloudflare 的 Worker 功能来实现后端 API，例如这样：[dydown.js](https://github.com/YuleBest/xiaoyu-toolbox/blob/main/src/back-end/cf-workers/dydown.js)
+
+使用 Vue 3 制作的示例页面：[小于工具箱](https://tool.yule.ink/dydown)
