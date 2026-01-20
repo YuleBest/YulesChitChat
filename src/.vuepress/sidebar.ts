@@ -11,8 +11,6 @@ export default sidebar({
       link: "/notes/",
       children: "structure",
     },
-    "/reprint/",
-    "/textbook/",
   ],
 
   // 前端 - 笔记
@@ -24,8 +22,6 @@ export default sidebar({
       link: "/notes/front-end/",
       children: "structure",
     },
-    "/reprint/",
-    "/textbook/",
   ],
 
   // Markdown 教程 - 笔记
@@ -37,30 +33,15 @@ export default sidebar({
       link: "/notes/markdown/",
       children: "structure",
     },
-    "/reprint/",
-    "/textbook/",
   ],
 
-  // 转载
-  "/reprint/": [
+  // 技术分析 - 笔记
+  "/notes/tech/": [
     "/",
     "/notes/",
     {
-      text: "转载",
-      link: "/reprint/",
-      children: "structure",
-    },
-    "/textbook/",
-  ],
-
-  // 教科书收录计划
-  "/textbook/": [
-    "/",
-    "/notes/",
-    "/reprint/",
-    {
-      text: "教科书收录计划",
-      link: "/textbook/",
+      text: "技术分析",
+      link: "/notes/tech/",
       children: "structure",
     },
   ],
