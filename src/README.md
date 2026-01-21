@@ -22,6 +22,12 @@ dir:
 
 所以，感谢你愿意听我的碎碎念，也希望我能陪你岁岁年年 ~
 
+## 日记
+
+<div class="vp-card-container" style="margin: 10px 0;">
+  <VPCard title="日记" desc="记录、分享与批判" link="/category/日记/" />
+</div>
+
 ## 笔记
 
 <div class="vp-card-container" style="margin: 10px 0;">
