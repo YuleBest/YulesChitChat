@@ -1,32 +1,20 @@
 // you can change colors here
-$vp-font: '-apple-system, "Nimbus Roman No9 L", "PingFang SC", "Hiragino Sans GB", "Noto Serif SC", "Microsoft Yahei", "WenQuanYi Micro Hei", "ST Heiti", sans-serif';
+$vp-font: '"Google Sans", "-apple-system", "Nimbus Roman No9 L", "PingFang SC", "Hiragino Sans GB", "Noto Serif SC", "Microsoft Yahei", "WenQuanYi Micro Hei", "ST Heiti", sans-serif';
 $vp-font-heading: var(--vp-font);
-$vp-font-mono: '"JetBrains Mono", ui-monospace,  SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji", monospace';
+$vp-font-mono: '"JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji", monospace';
 
 // 修改导航栏
 $navbar-height: 3.5rem;
 $navbar-mobile-height: 3.8rem;
 
-// 颜色修改 - 深色/浅色双主题
-
-// 文字
-$vp-c-text: (
-  dark: #e7e9ea,
-  light: #1a1a1a,
-);
-$vp-c-text-mute: (
-  dark: #b9bbbe,
-  light: #4a5568,
-);
-$vp-c-text-subtle: (
-  dark: #71767b,
-  light: #718096,
-);
-
-// 背景
+// 把背景改成了深色
 $vp-c-bg: (
-  dark: #161616,
+  dark: #101010,
   light: #ffffff,
+);
+$vp-c-bg-blur: (
+  dark: #10101080,
+  light: #ffffff80,
 );
 $vp-c-bg-alt: (
   dark: #16181c,
@@ -37,58 +25,13 @@ $vp-c-bg-elv: (
   light: #edf2f7,
 );
 
-// 阴影
-$vp-c-shadow: (
-  dark: rgba(0, 0, 0, 0.25),
-  light: rgba(0, 0, 0, 0.25),
+// 降低正文字体颜色深度
+$vp-c-text: (
+  dark: #cccccc,
+  light: #272727,
 );
-
-// 强调色
-$vp-c-accent: (
-  dark: #a292bd,
-  light: #5b21b6,
-);
-$vp-c-accent-hover: (
+// 粗体
+$vp-c-text-b: (
   dark: #ffffff,
   light: #000000,
-);
-$vp-c-accent-bg: (
-  dark: #3c3c3c,
-  light: #ede9fe,
-);
-$vp-c-accent-text: (
-  dark: #ffffff,
-  light: #ffffff,
-);
-$vp-c-accent-soft: (
-  dark: rgba(88, 88, 88, 0.34),
-  light: rgba(139, 92, 246, 0.14),
-);
-
-// 边框和分隔线
-$vp-c-border: (
-  dark: #2f3336,
-  light: #e2e8f0,
-);
-$vp-c-divider: (
-  dark: #2f3336,
-  light: #cbd5e0,
-);
-$vp-c-border-hard: (
-  dark: #3d4144,
-  light: #a0aec0,
-);
-
-// 控件
-$vp-c-control: (
-  dark: #16181c,
-  light: #e2e8f0,
-);
-$vp-c-control-hover: (
-  dark: #1e2126,
-  light: #d1dceb,
-);
-$vp-c-control-disabled: (
-  dark: #2f3336,
-  light: #e2e8f0,
 );

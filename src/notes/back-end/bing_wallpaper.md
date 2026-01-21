@@ -1,13 +1,13 @@
 ---
 title: 通过 Cloudflare Workers 部署获取 Bing 每日壁纸的 API
-shortTitle: 通过 Cloudflare Workers 部署获取 Bing 每日壁纸的 API
+shortTitle: 通过 CF Workers 获取 Bing 每日壁纸 API
 description: 介绍如何通过 Cloudflare Workers 来部署一个获取 Bing 每日壁纸的 API 接口
 isOriginal: true
 author: Yule
 date: 2025-11-23
 
 category: ["笔记"]
-tag: ["API", "壁纸", "Cloudflare"]
+tag: ["API", "后端", "Cloudflare"]
 excerpt:
 
 cover: https://image.yule.ink/blog/bing_wallpaper-homepage.png

@@ -4,29 +4,28 @@ import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
 
 export default hopeTheme({
-  hostname: "https://blog.yule.ink",
-
+  // 基础
+  hostname: "https://blog.yule.ink/", // 网站地址
+  repo: "YuleBest/YulesChitChat", // 仓库地址
+  docsDir: "src", // 根目录
   author: {
     name: "于乐Yule",
     url: "https://yule.ink",
   },
 
-  // logo: "/favicon.ico",
-
-  repo: "YuleBest/YulesChitChat",
-
-  docsDir: "src",
-
-  // 导航栏
-  navbar,
-
-  // 侧边栏
-  sidebar,
+  // 自定义
+  contributors: false, // 页面贡献者
+  editLink: false, // 编辑此页链接
+  breadcrumb: false, // 面包屑导航
+  titleIcon: false, // 标题旁边的图标
+  navbar, // 开启导航栏
+  sidebar, // 开启侧边栏
+  sidebarSorter: ["readme", "order", "date", "title", "filename"],
 
   // 页脚
-  footer: "",
-  license: "MIT",
-  displayFooter: true,
+  footer: "", // 页脚文字
+  license: "MIT", // 版权信息
+  displayFooter: true, // 显示页脚
 
   // 深色模式
   darkmode: "switch",
@@ -89,38 +88,9 @@ export default hopeTheme({
     vPre: true,
 
     math: {
-      type: "katex",
+      type: "katex", // 使用的公式渲染引擎
     },
-    obsidianImgSize: true,
-
-    // 如果你需要幻灯片，安装 @vuepress/plugin-revealjs 并取消下方注释
-    // revealjs: {
-    //   plugins: ["highlight", "math", "search", "notes", "zoom"],
-    // },
-
-    // 在启用之前安装 chart.js
-    // chartjs: true,
-
-    // insert component easily
-
-    // 在启用之前安装 echarts
-    // echarts: true,
-
-    // 在启用之前安装 flowchart.ts
-    // flowchart: true,
-
-    // 在启用之前安装 mermaid
-    // mermaid: true,
-
-    // playground: {
-    //   presets: ["ts", "vue"],
-    // },
-
-    // 在启用之前安装 @vue/repl
-    // vuePlayground: true,
-
-    // 在启用之前安装 sandpack-vue3
-    // sandpack: true,
+    obsidianImgSize: true, // Obsidian 风格的图片大小语法
   },
 
   // 在这里配置主题提供的插件
@@ -128,83 +98,19 @@ export default hopeTheme({
     blog: true,
 
     comment: {
-      provider: "Giscus",
-      repo: "YuleBest/YulesChitChat",
-      repoId: "R_kgDOQZDtfA",
-      category: "Announcements",
-      categoryId: "DIC_kwDOQZDtfM4Cx_y8",
+      provider: "Giscus", // 使用的评论服务
+      repo: "YuleBest/YulesChitChat", // 仓库地址
+      repoId: "R_kgDOQZDtfA", // 仓库 ID
+      category: "Announcements", // 分类
+      categoryId: "DIC_kwDOQZDtfM4Cx_y8", // 分类 ID
     },
-
-    // 启用之前需安装 @waline/client
-    // 警告: 这是一个仅供演示的测试服务，在生产环境中请自行部署并使用自己的服务！
-    // comment: {
-    //   provider: "Waline",
-    //   serverURL: "https://waline-comment.vuejs.press",
-    // },
 
     components: {
       components: ["Badge", "VPCard"],
     },
 
     icon: {
-      prefix: "fa6-solid:",
+      prefix: "fa6-solid:", // 图标前缀
     },
-
-    // 如果你需要 PWA。安装 @vuepress/plugin-pwa 并取消下方注释
-    // pwa: {
-    //   favicon: "/favicon.ico",
-    //   cacheHTML: true,
-    //   cacheImage: true,
-    //   appendBase: true,
-    //   apple: {
-    //     icon: "/assets/icon/apple-icon-152.png",
-    //     statusBarColor: "black",
-    //   },
-    //   msTile: {
-    //     image: "/assets/icon/ms-icon-144.png",
-    //     color: "#ffffff",
-    //   },
-    //   manifest: {
-    //     icons: [
-    //       {
-    //         src: "/assets/icon/chrome-mask-512.png",
-    //         sizes: "512x512",
-    //         purpose: "maskable",
-    //         type: "image/png",
-    //       },
-    //       {
-    //         src: "/assets/icon/chrome-mask-192.png",
-    //         sizes: "192x192",
-    //         purpose: "maskable",
-    //         type: "image/png",
-    //       },
-    //       {
-    //         src: "/assets/icon/chrome-512.png",
-    //         sizes: "512x512",
-    //         type: "image/png",
-    //       },
-    //       {
-    //         src: "/assets/icon/chrome-192.png",
-    //         sizes: "192x192",
-    //         type: "image/png",
-    //       },
-    //     ],
-    //     shortcuts: [
-    //       {
-    //         name: "Demo",
-    //         short_name: "Demo",
-    //         url: "/demo/",
-    //         icons: [
-    //           {
-    //             src: "/assets/icon/guide-maskable.png",
-    //             sizes: "192x192",
-    //             purpose: "maskable",
-    //             type: "image/png",
-    //           },
-    //         ],
-    //       },
-    //     ],
-    //   },
-    // },
   },
 });

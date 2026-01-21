@@ -7,6 +7,7 @@ html {
 // 导航栏
 .vp-navbar {
   backdrop-filter: saturate(150%) blur(5px);
+  background-color: var(--vp-c-bg-blur);
 
   span.arrow,
   iconify-icon {
@@ -21,21 +22,21 @@ html {
     // background: #ffffff;
   }
 
-  .route-link-active {
-    font-weight: 600;
-  }
+  // .route-link-active {
+  //   font-weight: 600;
+  // }
 
   .vp-site-name {
     font-size: 1rem;
-    font-weight: 500;
+    font-weight: 600;
   }
 }
 
-.vp-page-title {
-  h1 {
-    font-weight: 500;
-  }
-}
+// .vp-page-title {
+//   h1 {
+//     font-weight: 500;
+//   }
+// }
 
 .nav-screen-links iconify-icon {
   display: none !important;
@@ -126,7 +127,7 @@ html {
   span {
     font-size: 1.325rem;
     line-height: 1rem;
-    font-weight: 500;
+    // font-weight: 500;
   }
   &::after {
     display: none;
@@ -212,9 +213,9 @@ html {
   padding-bottom: 0.5rem;
 }
 
-.vp-toc-marker {
-  // background: #ffffff;
-}
+// .vp-toc-marker {
+//   // background: #ffffff;
+// }
 
 .toggle-sidebar-wrapper {
   display: none;
@@ -241,15 +242,6 @@ html {
   font-size: 0.85em;
 }
 
-// 自定义字体和布局
-lxgw {
-  p {
-    font-family: "LXGW WenKai Screen", var(--vp-font);
-  }
-}
-
-ti {
-  p {
-    text-indent: 2em;
-  }
+body strong {
+  color: var(--vp-c-text-b) !important;
 }
