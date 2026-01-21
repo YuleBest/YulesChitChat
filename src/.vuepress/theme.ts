@@ -20,7 +20,7 @@ export default hopeTheme({
   titleIcon: false, // 标题旁边的图标
   navbar, // 开启导航栏
   sidebar, // 开启侧边栏
-  sidebarSorter: ["readme", "order", "date", "title", "filename"],
+  sidebarSorter: ["readme", "order", "date", "title", "filename"], // 侧边栏排序
 
   // 页脚
   footer: "", // 页脚文字

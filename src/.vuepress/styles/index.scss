@@ -245,3 +245,24 @@ html {
 body strong {
   color: var(--vp-c-text-b) !important;
 }
+
+// 从侧边栏删除 star
+.vp-blog-type-switcher > button:first-child {
+  display: none;
+}
+.vp-star-article-wrapper {
+  hr,
+  .vp-star-article-empty {
+    display: none;
+  }
+}
+
+// 优化分类tags的外观
+.vp-category {
+  border-radius: 8px;
+  .vp-category-count {
+    background: rgba(255, 255, 255, 0.4) !important;
+    color: #000 !important;
+    backdrop-filter: blur(2px) !important;
+  }
+}
