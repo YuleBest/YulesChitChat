@@ -1,7 +1,7 @@
 {
   "name": "yules-chit-chat",
   "description": "于乐的碎碎念丨Yule's Chit-Chat",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "license": "MIT",
   "type": "module",
   "scripts": {
