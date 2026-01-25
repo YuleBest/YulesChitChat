@@ -266,3 +266,8 @@ body strong {
     backdrop-filter: blur(2px) !important;
   }
 }
+
+h2 {
+  border-bottom: none !important; /* 去掉下边框 */
+  padding-top: 4.25rem !important;
+}
