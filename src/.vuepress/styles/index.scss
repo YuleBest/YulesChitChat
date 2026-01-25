@@ -271,3 +271,28 @@ h2 {
   border-bottom: none !important; /* 去掉下边框 */
   padding-top: 4.25rem !important;
 }
+
+// 原创标记去除
+.page-original-info {
+  display: none !important;
+}
+
+// tag 底色去除 + 井号
+.page-tag-item {
+  background: none !important;
+  color: var(--vp-c-text-mute) !important;
+  padding: 0.1rem !important;
+  font-size: 0.75rem !important;
+
+  // 使用 & 符号连接
+  &::before {
+    content: "#" !important;
+    margin-right: 2px;
+    opacity: 0.8; /* 稍微调浅井号的颜色 */
+  }
+
+  // hover 样式
+  &:hover {
+    background: #9eddff9e !important;
+  }
+}
