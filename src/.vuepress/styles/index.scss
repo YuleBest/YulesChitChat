@@ -296,3 +296,15 @@ h2 {
     background: #9eddff9e !important;
   }
 }
+
+// 隐藏侧边栏滚动条
+#sidebar.vp-sidebar,
+.vp-sidebar {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+#sidebar.vp-sidebar::-webkit-scrollbar,
+.vp-sidebar::-webkit-scrollbar {
+  display: none;
+}
