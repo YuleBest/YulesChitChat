@@ -4,7 +4,7 @@ shortTitle: 哔哩哔哩 AV 号与 BV 号互转算法
 description: 分析哔哩哔哩 AV 号与 BV 号互转算法，附示例代码
 isOriginal: true
 author: Yule
-date: 2026-01-20
+date: 2026-02-27
 
 category: ["笔记"]
 tag: ["哔哩哔哩", "逆向分析"]
