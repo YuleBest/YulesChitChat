@@ -114,9 +114,6 @@ export default hopeTheme({
       prefix: "fa6-solid:", // 图标前缀
     },
 
-    slimsearch: {
-      indexContent: true,
-      hotKeys: [],
-    },
+    search: true,
   },
 });
