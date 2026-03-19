@@ -13,5 +13,6 @@ dir:
 ---
 
 这里是我的其他站点，欢迎你也去看看
+<!-- more -->
 
 - [小于工具箱 | Tool.Yule.ink](https://tool.yule.ink)

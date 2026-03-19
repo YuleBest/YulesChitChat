@@ -16,7 +16,6 @@ export default defineUserConfig({
 
   theme,
 
-  // head 配置
   head: [
     ["link", { rel: "preconnect", href: "https://fonts.googleapis.com" }],
     [
@@ -31,4 +30,6 @@ export default defineUserConfig({
       },
     ],
   ],
+
+  port: 8081,
 });

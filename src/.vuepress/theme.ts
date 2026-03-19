@@ -32,13 +32,14 @@ export default hopeTheme({
 
   // 博客相关
   blog: {
-    name: "于乐",
+    name: "于乐 Yule",
     avatar: "/avatar-yule.png",
 
     description: "永远相信美好的事情即将发生",
     medias: {
       GitHub: "https://github.com/YuleBest",
       Email: "mailto:yule-best@outlook.com",
+      Telegram: "@XiaoxiaoYua",
     },
   },
 
@@ -51,7 +52,7 @@ export default hopeTheme({
   fullscreen: true,
 
   // 如果想要实时查看任何改变，启用它。注: 这对更新性能有很大负面影响
-  hotReload: true,
+  hotReload: false,
 
   // 此处开启了很多功能用于演示，你应仅保留用到的功能。
   markdown: {
@@ -111,6 +112,11 @@ export default hopeTheme({
 
     icon: {
       prefix: "fa6-solid:", // 图标前缀
+    },
+
+    slimsearch: {
+      indexContent: true,
+      hotKeys: [],
     },
   },
 });

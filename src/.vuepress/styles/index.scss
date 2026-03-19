@@ -297,14 +297,33 @@ h2 {
   }
 }
 
-// 隐藏侧边栏滚动条
+// 侧边栏滚动条样式（适配深色/浅色模式）
 #sidebar.vp-sidebar,
 .vp-sidebar {
-  scrollbar-width: none;
-  -ms-overflow-style: none;
-}
-
-#sidebar.vp-sidebar::-webkit-scrollbar,
-.vp-sidebar::-webkit-scrollbar {
-  display: none;
+  // 去掉右侧阴影
+  box-shadow: none !important;
+  
+  // Firefox 滚动条
+  scrollbar-width: thin;
+  scrollbar-color: var(--vp-c-text-mute) transparent;
+  
+  // Webkit 滚动条（Chrome, Safari, Edge）
+  &::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  &::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  &::-webkit-scrollbar-thumb {
+    background-color: var(--vp-c-text);
+    border-radius: 3px;
+    opacity: 0.3;
+    
+    &:hover {
+      background-color: var(--vp-c-text-2);
+      opacity: 0.6;
+    }
+  }
 }
