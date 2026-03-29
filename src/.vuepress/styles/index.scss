@@ -184,10 +184,7 @@ html {
 // 页面布局
 .blog-page-wrapper {
   padding: 0 18px;
-}
-
-.vp-page.vp-blog-home {
-  padding-top: 0 !important;
+  margin-top: 1rem;
 }
 
 .main-content .vp-page {
@@ -302,25 +299,25 @@ h2 {
 .vp-sidebar {
   // 去掉右侧阴影
   box-shadow: none !important;
-  
+
   // Firefox 滚动条
   scrollbar-width: thin;
   scrollbar-color: var(--vp-c-text-mute) transparent;
-  
+
   // Webkit 滚动条（Chrome, Safari, Edge）
   &::-webkit-scrollbar {
     width: 6px;
   }
-  
+
   &::-webkit-scrollbar-track {
     background: transparent;
   }
-  
+
   &::-webkit-scrollbar-thumb {
     background-color: var(--vp-c-text);
     border-radius: 3px;
     opacity: 0.3;
-    
+
     &:hover {
       background-color: var(--vp-c-text-2);
       opacity: 0.6;
