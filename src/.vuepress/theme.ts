@@ -1,7 +1,6 @@
 import { hopeTheme } from "vuepress-theme-hope";
 
 import navbar from "./navbar.js";
-import sidebar from "./sidebar.js";
 
 export default hopeTheme({
   // 基础
@@ -19,7 +18,7 @@ export default hopeTheme({
   breadcrumb: false, // 面包屑导航
   titleIcon: false, // 标题旁边的图标
   navbar, // 开启导航栏
-  sidebar, // 开启侧边栏
+  sidebar: false, // 侧边栏
   sidebarSorter: ["readme", "order", "date", "title", "filename"], // 侧边栏排序
 
   // 页脚
@@ -41,6 +40,8 @@ export default hopeTheme({
       Email: "mailto:yule-best@outlook.com",
       Telegram: "@XiaoxiaoYua",
     },
+
+    timeline: "",
   },
 
   // 多语言配置
