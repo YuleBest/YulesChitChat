@@ -99,13 +99,7 @@ export default hopeTheme({
   plugins: {
     blog: true,
 
-    comment: {
-      provider: "Giscus", // 使用的评论服务
-      repo: "YuleBest/YulesChitChat", // 仓库地址
-      repoId: "R_kgDOQZDtfA", // 仓库 ID
-      category: "Announcements", // 分类
-      categoryId: "DIC_kwDOQZDtfM4Cx_y8", // 分类 ID
-    },
+    comment: false,
 
     components: {
       components: ["Badge", "VPCard"],
