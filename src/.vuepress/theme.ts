@@ -116,5 +116,6 @@ export default hopeTheme({
     },
 
     search: true,
+    pwa: false,
   },
 });

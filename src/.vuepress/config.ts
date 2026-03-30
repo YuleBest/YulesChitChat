@@ -32,4 +32,5 @@ export default defineUserConfig({
   ],
 
   port: 8081,
+  shouldPrefetch: false,
 });
